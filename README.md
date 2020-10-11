@@ -20,20 +20,20 @@ Questions:
 
 Following operations are performed before solved the question
 
-# Import the libraries and Dataset
+* Import the libraries and Dataset
 
-# Inspecting the dataframe
+* Inspecting the dataframe
 
-# Find unique value for few columns to understandd
+* Find unique value for few columns to understandd
 
-# Check data type of each column
+* Check data type of each column
 
-# Checking missing values analysis, if it is there and drop observation
+* Checking missing values analysis, if it is there and drop observation
 
-# Peforming outlier analysis using box plot
+* Peforming outlier analysis using box plot
 
 
-1.	Rank top 3 Breweries which produce the strongest beers?
+# 1.	Rank top 3 Breweries which produce the strongest beers?
 
 As per column headers, we will use beer_brewerId to get the strongest beers
 
@@ -41,25 +41,25 @@ Moreover, the strongest factor, we can decide beased on **Alcohol by volume (ABV
 
 Therefore, we will use beer_ABV to dervied strongest beers
 
-# Answer 1 As per analysis, we can say that the top 3 breweries are 6513, 736 and 24215  and beer_ABV values 19.22, 13.75 and 12.46 respectively
+Answer 1 As per analysis, we can say that the top 3 breweries are 6513, 736 and 24215  and beer_ABV values 19.22, 13.75 and 12.46 respectively
 
-Question 2 Which year did beers enjoy the highest ratings?
+# Question 2 Which year did beers enjoy the highest ratings?
 
-#Answer 2 As there is no specific column that mentioned data and time to derived the answer
+Answer 2 As there is no specific column that mentioned data and time to derived the answer
 
 
 # Question 3 Based on the user’s ratings which factors are important among taste, aroma, appearance, and palette?
 
 There are four features on basis of users have rate the beer. These are taste, aroma, apperance and palette
 
-# Answer 3 Based on  the analysis, we can say that review_aroma is important factor amongst the all features
+Answer 3 Based on  the analysis, we can say that review_aroma is important factor amongst the all features
 
 # Question 4 If you were to recommend 3 beers to your friends based on this data which ones will you recommend?
 
 There are many factors on those factors, we can recommend best beer.
 Such factors are beer_ABV, review_appearance, review_palette, review_overall, review_taste and review_aroma
 
-# Answer 4 The top 3 beer recommend
+Answer 4 The top 3 beer recommend
 
 1.   AleSmith Speedway Stout - Oak Aged	
 2.   Pilot Series Imperial Sweet Stout - Palm Ridge...	
@@ -71,7 +71,7 @@ Here, we count total review for each beer style.
 
 Then we take review_overall to find mean for each beer_style category to derive best beer style
 
-# Answer 5 : - As we have derived first count of review text for each beer_style and then we have used overall_rating for each beer_style as mean
+Answer 5 : - As we have derived first count of review text for each beer_style and then we have used overall_rating for each beer_style as mean
 
 So, we now derived there are three main beer_Style we can ask to user to taste
 
@@ -90,7 +90,7 @@ Then we will plot the data on historgram.
 
 As per analysis, we can say that American IPA is one of the best beer style
 
-#Answer 6 As per over all review score against wrtten review,we can say that below are best beer style
+Answer 6 As per over all review score against wrtten review,we can say that below are best beer style
 
 *   American Double / Imperial IPA	
 *   American Double / Imperial Stout	
