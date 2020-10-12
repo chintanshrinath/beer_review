@@ -79,7 +79,7 @@ So, we now derived there are three main beer_Style we can ask to user to taste
 *   Russian Imperial Stout
 *   Belgian Strong Dark Ale
 
-# Question 6 Which Beer style seems to be the favorite based on reviews written by users? 
+# Question 6	How does written review compare to overall review score for the beer styles? 
 
 First we will count review on basis of beer style.
 Then sort the beer style by counts 
